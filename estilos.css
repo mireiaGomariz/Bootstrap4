@@ -1,0 +1,22 @@
+body {
+  background: #f2f2f2;
+  font-family: 'Roboto' , sans-serif;
+}
+
+.comentarios {
+  margin: 20px 0;
+}
+
+.form_comentarios textarea {
+width: 100%;
+height: 84px;
+max-width: 100%;
+min-width: 100%;
+min-height: 84px;
+max-width: 300px;
+padding: 10px;
+font-family: 'Roboto', sans-serif;
+line-height: 30px;
+border: 1px solid #4b65d1;
+margin-bottom: 20px;
+}
