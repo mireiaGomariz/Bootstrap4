@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <title>Formularios</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row mt-3">
+        <div class="col">
+          <form action="">
+            <div class="form-group">
+              <label for="nombre">Nombre</label>
+              <input type="text" class="form-control" placeholder="Nombre" name="nombre" id="nombre">
+            </div>
+
+            <div class="form-group">
+              <label for="pass">Contraseña</label>
+              <input type="pasword" class="form-control" placeholder="Contraseña" name="contraseña" id="pass">
+            </div>
+
+            <div class="form-group">
+              <label for="mensaje">Mensaje</label>
+              <textarea name="mensaje" id="mensaje" class="form-control"></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="pais">Pais</label>
+              <select name="pais" id="pais" class="form-control">
+                <option value="alemania">Alemania</option>
+                <option value="mejico">Mejico</option>
+                <option value="belgica">Belgica</option>
+                <option value="catalunya">Catalunya</option>
+
+              </select>
+
+            </div>
+
+            <div class="form-check">
+              <label class="form-check-label">
+                <input type="radio" name="sexo" id="hombre" class="form-chek-input mr-2">Hombre
+              </label>
+
+            </div>
+
+            <div class="form-check">
+              <label class="form-check-label">
+                <input type="radio" name="sexo" id="mujer" class="form-chek-input mr-2">Mujer
+              </label>
+
+            </div>
+
+            <div class="form-check">
+              <label class="form-check-label">
+                <input type="checkbox" name="terminos" id="terminos" class="form-chek-input mr-2">Acepto Condiciones
+              </label>
+
+            </div>
+
+            <button class="btn btn-primary" type="submit">Enviar</button>
+
+          </form>
+
+
+
+        </div>
+      </div>
+    </div>
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
