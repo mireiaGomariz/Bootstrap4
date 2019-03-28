@@ -22,11 +22,106 @@
   </head>
   <body>
     <div class="container">
-      <div class="row">
-        <div class="col"></div>
+      <div class="row my-4">
+        <div class="col">
+          <h4>Align Items</h4>
+          <hr>
+
+          <p>.align-items-start</p>
+          <div class="contenedor d-flex align-items-start">
+            <div>Caja 1</div>
+            <div>Caja 2</div>
+            <div>Caja 3</div>
+
+          </div>
+
+          <p>.align-items-center</p>
+          <div class="contenedor d-flex align-items-center">
+            <div>Caja 1</div>
+            <div>Caja 2</div>
+            <div>Caja 3</div>
+
+          </div>
+
+          <p>.align-items-end</p>
+          <div class="contenedor d-flex align-items-end">
+            <div>Caja 1</div>
+            <div>Caja 2</div>
+            <div>Caja 3</div>
+
+          </div>
+
+          <p>.align-items-baseline</p>
+          <div class="contenedor d-flex align-items-baseline">
+            <div>Caja 1</div>
+            <div>Caja 2</div>
+            <div>Caja 3</div>
+
+          </div>
+
+          <p>.align-items-strech</p>
+          <div class="contenedor d-flex align-items-strech">
+            <div>Caja 1</div>
+            <div>Caja 2</div>
+            <div>Caja 3</div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="row my-4">
+        <div class="col">
+          <h4>Align Self</h4>
+          <hr>
+          <div class="contenedor d-flex">
+            <div class="align-self-start">.align-self-start</div>
+            <div class="align-self-center">.align-self-center</div>
+            <div class="align-self-end">.align-self-end</div>
+            <div class="align-self-baseline">.align-self-baseline</div>
+            <div class="align-self-stretch">.align-self-stretch</div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="row my-4">
+        <div class="col">
+          <h4>Auto Margins</h4>
+          <hr>
+          <div class="contenedor d-flex justify-content-end">
+            <div class="mr-auto">.mr-auto</div>
+            <div>Caja 1</div>
+            <div>Caja 2</div>
+
+          </div>
+
+          <div class="contenedor d-flex justify-content-start">
+            <div>Caja 1</div>
+            <div>Caja 2</div>
+            <div class="ml-auto">.mr-auto</div>
+          </div>
+
+          <div class="contenedor d-flex flex-column align-items-start" style="height: 250px;">
+            <div class="mb-auto">.mb-auto</div>
+            <div>Caja 1</div>
+            <div>Caja 2</div>
+          </div>
+
+          <div class="contenedor d-flex flex-column align-items-end" style="height: 250px;">
+
+            <div>Caja 1</div>
+            <div>Caja 2</div>
+            <div class="mt-auto">.mb-auto</div>
+          </div>
+        </div>
+
       </div>
     </div>
     <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
